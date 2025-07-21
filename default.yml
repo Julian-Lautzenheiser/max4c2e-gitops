@@ -16,6 +16,12 @@ org_settings:
   host_expiry_settings:
     enable: true
     host_expiry_window: 30
+  org_info:
+    org_name: Katsu's Cat Cafe
+  webhook_settings:
+    activities_webhook:
+      enable_activities_webhook: true
+      destination_url: https://example.com
   server_settings:
     server_url: $FLEET_URL
   org_info:
