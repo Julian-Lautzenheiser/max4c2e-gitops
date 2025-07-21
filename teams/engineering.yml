@@ -47,4 +47,4 @@ team_settings:
       policy_ids:
 software:
   packages:
-    - path: ../lib/cloudfare-warp.yml
+    - path: ../lib/windows/software/cloudfare-warp.yml
