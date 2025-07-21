@@ -27,7 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Create script executable
-        run: chmod +x gitops.sh
+        run: chmod +x ./gitops.sh
 
       - name: Checkout GitOps repository
         uses: actions/checkout@v4
