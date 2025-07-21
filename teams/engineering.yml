@@ -32,6 +32,7 @@ controls:
     - path: ../lib/macos/scripts/remove-zoom-artifacts.script.sh
     - path: ../lib/macos/scripts/set-timezone.script.sh
     - path: ../lib/windows/scripts/set-wallpaper.ps1
+    - path: ../lib/macos/scripts/set-dns-cloudflare.sh
 team_settings:
   secrets:
     - secret: "$FLEET_ENGINEERING_ENROLL_SECRET"
